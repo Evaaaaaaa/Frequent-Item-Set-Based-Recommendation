@@ -4,8 +4,8 @@ import pandas as pd
 
 
 def loadDataSet():
-        address = '/Users/Evangeline0519/PycharmProjects/Apriori/3002986.csv'
-        # address = '/Users/Evangeline0519/PycharmProjects/Receipt_Sale/mem_prod_choose_c.xlsx'
+        address = '3002986.csv'
+        # address = 'mem_prod_choose_c.xlsx'
         c = pd.read_excel(address)
         c.columns = ['OID', 'PID']
         m = {}
